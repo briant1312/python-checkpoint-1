@@ -3,11 +3,39 @@
 ## Before You Start
 
 - **Fork and clone** this repo.
-- Run `pip install pipenv`
+- Run `pip3 install pipenv` (If that doesn't work try `python3 -m install pipenv`)
 - Run `pipenv install` to install the dependencies for this checkpoint and setup
-    the virtual environment
+    the virtual environment 
 - Run `pipenv shell` to activate your virtual environment
 - Run `pytest` from your activated terminal to check that the tests are working (`pytest`)
+
+> `pytest` command not found?
+
+<details>
+<summary>Try</summary>
+
+**While in the virtual environment:**
+```
+pip3 install --user pipenv
+```
+
+</details>
+
+> `pytest` command is running but not showing the tests?
+
+<details>
+<summary>Try</summary>
+
+**While in the virtual environment:**
+```
+pip3 install pip-review
+```
+**Then**
+```
+pip-review --local --interactive
+```
+
+</details>
 
 ## Running Tests
 

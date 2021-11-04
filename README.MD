@@ -3,7 +3,7 @@
 ## Before You Start
 
 - **Fork and clone** this repo.
-- Run `pip3 install pipenv` (If that doesn't work try `python3 -m install pipenv`)
+- Run `pip3 install pipenv` (If that doesn't work try `python3 -m install pipenv` or `sudo -H pip3 install -U pipenv`)
 - Run `pipenv install` to install the dependencies for this checkpoint and setup
     the virtual environment 
 - Run `pipenv shell` to activate your virtual environment

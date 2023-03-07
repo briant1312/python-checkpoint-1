@@ -1,8 +1,11 @@
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/software-engineering-immersive/boston)
+
 # Python Checkpoint 1
 
-## Before You Start
+## Preparation
 
-- **Fork and clone** this repo.
+- Accept the Github classroom invitation.
+- **Clone** this repo.
 - Run `pip3 install pipenv` (If that doesn't work try `python3 -m install pipenv` or `sudo -H pip3 install -U pipenv`)
 - Run `pipenv install` to install the dependencies for this checkpoint and setup
     the virtual environment 
@@ -34,7 +37,9 @@ pip3 install pip-review
 ```
 pip-review --local --interactive
 ```
-
+    
+If it asks you to update your dependencies, respond with yes!
+    
 </details>
 
 ## Running Tests
@@ -74,7 +79,6 @@ Python necessary to complete each prompt in each of the three files.
 
 ## Submission
 
-Fork this repository and clone your fork locally. Commit as you go. When you are
-finished, push your commits to GitHub.
+Commit as you go. When you arefinished, push your commits to GitHub.
 
 Pull request when finished!

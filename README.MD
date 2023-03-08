@@ -6,8 +6,7 @@ Continue to develop your Python skills with this checkpoint. Testing is included
 
 ## Preparation
 
-- Accept the Github classroom invitation.
-- **Clone** this repo.
+- ** Fork and clone** this repo.
 - Run `pip3 install pipenv` (If that doesn't work try `python3 -m install pipenv` or `sudo -H pip3 install -U pipenv`)
 - Run `pipenv install` to install the dependencies for this checkpoint and setup
     the virtual environment 

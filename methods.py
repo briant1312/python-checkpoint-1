@@ -6,6 +6,13 @@
 #
 # So if the number 5 is passed in, num_list_with_arg should return [1, 2, 3, 4]
 
+def num_list_with_arg(int):
+    res = []
+    for num in range(1, int):
+        res.append(num)
+
+    return res
+
 
 # #2: Modify the has_ruby_exp method below so that it returns a SORTED list of
 # all instructors who have Ruby experience (i.e. where "ruby" == True)
@@ -13,7 +20,7 @@
 # make sure you name the list ruby_experience before returning it.
 
 def has_ruby_exp():
-    ruby_experience = []
+    # ruby_experience = []
 
     experience = {
         'jimmy': {
@@ -49,14 +56,24 @@ def has_ruby_exp():
             'pasta': False
         }
     }
+    return [instructor for instructor in experience  if experience[instructor]['ruby']]
 
-
+# print(has_ruby_exp())
 
 # #3: Create a method called toggle_str_num that takes an argument. If the
 # argument is a string, convert it to an integer and return the integer; If the
 # argument is an integer, convert it to a string and return the string; If the
 # argument is neither a string nor an integer, return the string "this is not a
 # str or a int":
+
+def toggle_str_num(arg):
+    if type(arg) is not str and type(arg) is not int:
+        return "this is not a str or an int"
+    elif type(arg) is str:
+        return int(arg)
+    elif type(arg) is int:
+        return str(arg)
+    
 
 
 

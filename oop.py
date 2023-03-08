@@ -11,6 +11,30 @@
 #     it should return "no wheels send it back to the shop"
 #     otherwise it should return "I have {self.wheel_count} wheel drive" as a formatted string
 #
+
+class Vehicle():
+    def __init__(self, vehicle_type, wheel_count, name, mpg):
+        self.vehicle_type = vehicle_type
+        self.wheel_count = wheel_count
+        self.name = name
+        self.mpg = mpg
+
+        def get_vehicle_type(self):
+            return vehicle_type
+        
+        def get_vehicle_drive(self):
+            if wheel_count == "no wheels!":
+                return "no wheels send it back to the shop"
+            else:
+                return f"{self.wheel_count} wheel drive"
+            
+car = Vehicle('sedan', 4, 'avenger', {
+    'city': 19,
+    'highway': 23,
+    'combined': 21
+})
+
+
 # Your Vehicle class should take one extra argument in the __init__ method (a `dict`) with the above
 # attributes. Define the properties on the class from the dict that is passed in.
 # 
